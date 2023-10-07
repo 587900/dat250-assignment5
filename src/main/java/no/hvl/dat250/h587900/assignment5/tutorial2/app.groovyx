@@ -1,0 +1,10 @@
+// Renamed to .groovyx so IntelliJ doesn't complain when building app ("No groovy engine defined")
+@RestController
+class ThisWillActuallyRun {
+
+    @GetMapping("/")
+    String home() {
+        return "Hello, World!"
+    }
+
+}
